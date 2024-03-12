@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/pancreas/', help='Name of Experiment')
 parser.add_argument('--model', type=str,
-                    default='Pancreas/TTMC_12_50_iter1700_12labels_alpha_0.4_beta_0.3_gamma_0.3_conweight_1/',
+                    default='Pancreas/',
                     help='model_name')
 parser.add_argument('--gpu', type=str, default='1', help='GPU to use')
 parser.add_argument('--detail', type=int, default=1,
