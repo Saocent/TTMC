@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/2018LA_Seg_Training Set/', help='Name of Experiment')
 parser.add_argument('--model', type=str,
-                    default='LA/Triple_consis_l2_v2_test2_bigpatch_weight_8labels_alpha_0.5_beta_0.2_gamma_0.3/',
+                    default='LA/',
                     help='model_name')
 parser.add_argument('--gpu', type=str, default='1', help='GPU to use')
 parser.add_argument('--detail', type=int, default=1,
