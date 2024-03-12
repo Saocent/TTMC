@@ -8,7 +8,7 @@ from test_util import test_all_case
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
-                    default='../../DTC-master/data/2018LA_Seg_Training Set/', help='Name of Experiment')
+                    default='../data/2018LA_Seg_Training Set/', help='Name of Experiment')
 parser.add_argument('--model', type=str,
                     default='LA/Triple_consis_l2_v2_test2_bigpatch_weight_8labels_alpha_0.5_beta_0.2_gamma_0.3/',
                     help='model_name')
