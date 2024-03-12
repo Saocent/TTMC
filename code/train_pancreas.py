@@ -31,7 +31,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
                     default='../data/pancreas/', help='Name of Experiment')
 parser.add_argument('--exp', type=str,
-                    default='Pancreas/TTMC_6_56_1400', help='model_name')
+                    default='Pancreas/', help='model_name')
 parser.add_argument('--max_iterations', type=int,
                     default=6000, help='maximum epoch number to train')
 parser.add_argument('--batch_size', type=int, default=4,
