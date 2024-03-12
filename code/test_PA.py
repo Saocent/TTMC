@@ -8,7 +8,7 @@ from test_util import test_all_case
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root_path', type=str,
-                    default='../../test/data/pancreas/', help='Name of Experiment')
+                    default='../data/pancreas/', help='Name of Experiment')
 parser.add_argument('--model', type=str,
                     default='Pancreas/TTMC_12_50_iter1700_12labels_alpha_0.4_beta_0.3_gamma_0.3_conweight_1/',
                     help='model_name')
